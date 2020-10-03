@@ -1,0 +1,493 @@
+/* */
+
+body {
+  background-image: linear-gradient(#185eda, lightblue);
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: system-ui, sans-serif;
+  margin: 0;
+  color: darkblue;
+}
+
+
+li {
+  list-style-type: square;
+}
+
+figcaption {
+  font-variant: small-caps;
+  color: black;
+}
+
+h1 {
+    font-size: 32px;
+    border: 2px solid darkblue;
+    margin: 20px 20px;
+    padding: 10px 5px;
+    background-color: white;
+}
+
+/* HEADER START */
+
+.logo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.logo a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-variant: small-caps;
+  text-decoration: none;
+  font-size: 36px;
+  padding-top: 5px;
+}
+
+header {
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: 0 0 0px 10px black;
+  filter: grayscale(10%);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0 0 35px 0;
+}
+
+nav {
+  display: flex;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 5px 0 5px 10px;
+}
+
+nav li {
+  list-style: none;
+}
+
+header {
+    background-color: black;
+}
+
+.topnav a {
+  width: 300px;
+  text-decoration: none;
+  text-shadow: 0 0 5px black, 0 0 5px black, 0 0 5px black, 0 0 5px black;
+  letter-spacing: 2px;
+  color: white;
+  margin: 10px 20px;
+  padding: 0 0 7px 0;
+}
+
+.topnav a:hover {
+  border-bottom: 1px solid #185eda;
+  color: #185eda;
+}
+
+/* HEADER END */
+
+/* FOOTER START */
+
+footer {
+    display: flex;
+    flex-direction: row;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    position: fixed;
+}
+
+.regulations, .main-home {
+    margin-bottom: 140px;
+}
+
+.bottomnav li{
+    display: flex;
+    width: 50%;
+}
+
+.bottomnav nav ul {
+    display: inline-flex;
+    list-style-type: none;
+}
+
+.bottomnav nav ul a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 5px 10px;
+}
+
+.bottomnav a:hover {
+  border-bottom: 1px solid white;
+}
+
+.bottomnav li{
+    width: 50%;
+}
+
+.bottomsocial{
+    display: flex;
+}
+
+.bottomsocial a {
+    margin: 5px;
+    width: 33%;
+}
+
+.bottomlogo{
+    background-color: black;
+}
+
+.bottomsocial, .bottomlogo, .bottomcontact, .bottomnav {
+    width: 25%;
+    min-width: 100px;
+}
+
+/* DRINKS START */
+
+.main-drinks{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    margin-bottom: 140px;
+}
+
+.main-drinks .section{
+    color: darkblue;
+    margin: 10px 10px 10px 10px;
+    width: 33%;
+    font-size: 14px;
+    /* min-width: 300px; */
+}
+
+.main-drinks dl {
+    margin: 10px;
+}
+
+.main-drinks dt {
+    font-weight: bold;
+}
+
+.main-drinks .section img {
+    display: flex;
+    text-align: center;
+    width: 80%;
+    flex-direction: row;
+    margin: 20px auto;
+}
+
+/* DRINKS END */
+
+/*form formatting start*/
+form {
+  margin-top: 20px;
+  margin-bottom: 140px;
+}
+
+.event_form h3{
+  text-align: center;
+}
+
+.event_form .holder, .event_form label{
+  width: 50%;
+  display: inline-block;
+  clear:right;
+  text-align: right;
+}
+
+.holder {
+  opacity: 0;
+  margin: 5px;
+}
+
+.submit {
+  display: inline-block;
+  width: 80%;
+  text-align: right;
+}
+
+h1 {
+    text-align: center;
+    color: darkblue;
+    margin-bottom: 0px;
+}
+
+h2 {
+    color: black;
+    font-size: 28px;
+    border-bottom: 4px solid black;
+    border-top: 2px dashed black;
+    width: 90%;
+    text-align: center;
+    margin: 4px auto;
+    margin-top: 8px;
+}
+
+.hidden{
+    display: none !important;
+}
+
+/*History start*/
+
+.history {
+    display: flex;
+    flex-direction: row;
+    color: darkblue;
+    margin: 5px 5px 10px 5px;
+}
+
+.history p {
+    width: 65%;
+    margin-left: 10px;
+}
+
+.morehistory {
+    color: darkblue;
+    margin: 0px 10px 0px 10px;
+}
+
+.morehistory h1 {
+    text-align: left;
+}
+
+/* JOBS START */
+
+.main-jobs{
+    text-align: center;
+}
+
+.main-jobs p a {
+    color: darkblue;
+    text-decoration: none;
+}
+
+.main-jobs p a:hover{
+    text-decoration: underline;
+    text-decoration-color: darkblue;
+}
+
+
+/* HOME START */
+
+.main-home p, .history p, .morehistory p{
+    margin: 10px 6%;
+    text-align: justify;
+}
+
+.history p {
+    margin-left: 2%;
+    margin-right: 6%;
+    width: 70%;
+}
+
+.home-middle{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.home-middle .section {
+    width: 60%;
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+}
+
+.home-middle .section img {
+    display: flex;
+    text-align: center;
+    width: 40%;
+    flex-direction: row;
+    margin: 5px auto;
+}
+
+.home-middle .section .subsection {
+  display: inline-block;
+  text-align: center;
+  width: 60%;
+  margin: 5px auto;
+  background-color: gray;
+}
+
+/*Regulation Start*/
+.regulations {
+    display: block;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.regulations p a {
+    color: darkblue;
+    text-decoration: none;
+}
+
+.regulations p a:hover{
+    text-decoration: underline;
+    text-decoration-color: darkblue;
+}
+
+.bottomsocial .ig,  .bottomsocial .fb, .bottomsocial .twitter{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.bottomsocial a {
+    text-align: center;
+    margin: 10px auto;
+}
+
+.bottomsocial, .bottomcontact {
+    margin-left: 10px;
+}
+
+/* MOBILE */
+@media (max-width: 600px){
+
+    .main-drinks{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main-drinks .section {
+        margin: 0px auto;
+        width: 95%;
+    }
+
+    .main-drinks h1 {
+        width: 240px;
+        font-size: 18px;
+        margin: 5px auto;
+    }
+
+    .history {
+        display: inline;
+        margin-bottom: 0px;
+    }
+
+     .history p, .morehistory p {
+        margin: 10px auto;
+        width: 80%;
+    }
+
+    .history img {
+        margin: 5px auto;
+        padding-left: 9%;
+        padding-right: 10%;
+        text-align: center;
+        width: 80%;
+    }
+
+    /* SUBMIT BUTTON */
+    .submit {
+        margin-top: 30px;
+        margin-left: 10px;
+    }
+
+    .submit button {
+        float: none;
+        margin-bottom: 20px;
+        font-size: 18px;
+        margin-left: 0px;
+    }
+
+    .bottomsocial .ig,  .bottomsocial .fb, .bottomsocial .twitter{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    header nav ul {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 940px) {
+    .main-drinks h1 {
+    width: 70%;
+    }
+}
+
+
+.submit button {
+    border-radius: 8px;
+    padding: 10px 20px;
+    background-color: white;
+    border: solid darkblue;
+    font-size: 24px;
+    display: inline-block;
+    float: right;
+    margin-right: 8%;
+    color: darkblue;
+    font-weight: bold;
+}
+
+.submit button:hover {
+    color: #1d9f23;
+    background-color: white;
+    border-color: #1d9f23;
+    box-shadow: 0 4px 9px 0 #1d9f23;
+}
+
+.submit {
+    width: 90%
+}
+
+.event-form input {
+    margin: 0px auto;
+    padding: 10px;
+    background-color: white;
+    border: solid 8px darkblue;
+
+}
+
+.name-line, .email-line, .guests-line, .date-line, .time-line, .bartab-line,
+.tab_amount-line, .food_choice-line, .drinkspecials-line, .budget-line {
+    margin: 10px;
+}
+
+.name-line label, .email-line label, .guests-line label, .date-line label, .time-line label, .bartab-line label, .dj-line label, .food_service-line label,
+.tab_amount-line label, .food_choice-line label, .drinkspecials-line label, .budget-line label, .holder label, .event-line label{
+    margin: 5px;
+    font-family: system-ui;
+    text-align: right;
+    font-size: 18px;
+    width: 50%;
+    font-weight: bold;
+}
+
+.event_form {
+    margin: 0px auto;
+    font-size: 18px;
+    width: 80%;
+    margin: 0px auto;
+    padding: 10px;
+}
+
+.event_form h2 {
+    margin-top: 10px;
+}
+p {
+    margin: 20px auto;
+}
+
+header .topnav {
+    font-size: 24px;
+    padding: 5px;
+}
+
+header nav ul {
+    margin-left: 10px;
+}
